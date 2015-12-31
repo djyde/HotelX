@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2527090E1C33AA1400068C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2527090D1C33AA1400068C6D /* AppDelegate.swift */; };
+		252709131C33AA1400068C6D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 252709111C33AA1400068C6D /* MainMenu.xib */; };
+		252709201C33AF2C00068C6D /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2527091E1C33AF2C00068C6D /* PopupViewController.swift */; };
+		252709211C33AF2C00068C6D /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2527091F1C33AF2C00068C6D /* PopupViewController.xib */; };
+		252709231C33C96900068C6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252709221C33C96900068C6D /* EventMonitor.swift */; };
+		252709251C33D49200068C6D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252709241C33D49200068C6D /* Settings.swift */; };
+		252709271C33DC9200068C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252709261C33DC9200068C6D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2527090A1C33AA1400068C6D /* HotelX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2527090D1C33AA1400068C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		252709121C33AA1400068C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		252709141C33AA1400068C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2527091E1C33AF2C00068C6D /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		2527091F1C33AF2C00068C6D /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
+		252709221C33C96900068C6D /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		252709241C33D49200068C6D /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		252709261C33DC9200068C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252709071C33AA1400068C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252709011C33AA1400068C6D = {
+			isa = PBXGroup;
+			children = (
+				2527090C1C33AA1400068C6D /* Statut */,
+				2527090B1C33AA1400068C6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2527090B1C33AA1400068C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2527090A1C33AA1400068C6D /* HotelX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2527090C1C33AA1400068C6D /* Statut */ = {
+			isa = PBXGroup;
+			children = (
+				252709261C33DC9200068C6D /* Assets.xcassets */,
+				2527090D1C33AA1400068C6D /* AppDelegate.swift */,
+				252709111C33AA1400068C6D /* MainMenu.xib */,
+				2527091E1C33AF2C00068C6D /* PopupViewController.swift */,
+				252709241C33D49200068C6D /* Settings.swift */,
+				252709221C33C96900068C6D /* EventMonitor.swift */,
+				2527091F1C33AF2C00068C6D /* PopupViewController.xib */,
+				252709141C33AA1400068C6D /* Info.plist */,
+			);
+			path = Statut;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252709091C33AA1400068C6D /* HotelX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252709171C33AA1400068C6D /* Build configuration list for PBXNativeTarget "HotelX" */;
+			buildPhases = (
+				252709061C33AA1400068C6D /* Sources */,
+				252709071C33AA1400068C6D /* Frameworks */,
+				252709081C33AA1400068C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotelX;
+			productName = Statut;
+			productReference = 2527090A1C33AA1400068C6D /* HotelX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252709021C33AA1400068C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = randy;
+				TargetAttributes = {
+					252709091C33AA1400068C6D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 252709051C33AA1400068C6D /* Build configuration list for PBXProject "HotelX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 252709011C33AA1400068C6D;
+			productRefGroup = 2527090B1C33AA1400068C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252709091C33AA1400068C6D /* HotelX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		252709081C33AA1400068C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252709131C33AA1400068C6D /* MainMenu.xib in Resources */,
+				252709271C33DC9200068C6D /* Assets.xcassets in Resources */,
+				252709211C33AF2C00068C6D /* PopupViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252709061C33AA1400068C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252709231C33C96900068C6D /* EventMonitor.swift in Sources */,
+				2527090E1C33AA1400068C6D /* AppDelegate.swift in Sources */,
+				252709251C33D49200068C6D /* Settings.swift in Sources */,
+				252709201C33AF2C00068C6D /* PopupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		252709111C33AA1400068C6D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252709121C33AA1400068C6D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		252709151C33AA1400068C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		252709161C33AA1400068C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		252709181C33AA1400068C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Statut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.djyde.Statut;
+				PRODUCT_NAME = HotelX;
+			};
+			name = Debug;
+		};
+		252709191C33AA1400068C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Statut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.djyde.Statut;
+				PRODUCT_NAME = HotelX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252709051C33AA1400068C6D /* Build configuration list for PBXProject "HotelX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252709151C33AA1400068C6D /* Debug */,
+				252709161C33AA1400068C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252709171C33AA1400068C6D /* Build configuration list for PBXNativeTarget "HotelX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252709181C33AA1400068C6D /* Debug */,
+				252709191C33AA1400068C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 252709021C33AA1400068C6D /* Project object */;
+}
